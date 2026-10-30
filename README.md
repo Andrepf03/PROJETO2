@@ -20,7 +20,7 @@ Representações compactas de imagens de roupa (PCA, autoencoder, HOG e histogra
 ├── results/
 │   ├── figures/            # todas as figuras do relatório (+ retrieval_panels/)
 │   └── tables/             # todas as tabelas (.csv)
-├── report/                 # relatório (LaTeX/PDF)
+├── report/                 # relatório (PDF)
 ├── data/                   # datasets (NÃO estão no repositório, são descarregados automaticamente)
 └── requirements.txt
 ```
