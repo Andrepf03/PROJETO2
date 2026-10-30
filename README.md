@@ -29,8 +29,8 @@ Representações compactas de imagens de roupa (PCA, autoencoder, HOG e histogra
 
 ### Google Colab
 ```python
-!git clone https://github.com/<UTILIZADOR>/<REPOSITORIO>.git
-%cd <REPOSITORIO>
+!git clone https://github.com/Andrepf03/PROJETO2.git
+%cd PROJETO2
 !pip install -q umap-learn scikit-image datasets scikit-learn==1.9.1
 ```
 Depois, cada notebook pode ser executado assim (exemplo):
