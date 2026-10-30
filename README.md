@@ -28,18 +28,15 @@ Representações compactas de imagens de roupa (PCA, autoencoder, HOG e histogra
 ## Como correr
 
 ### Google Colab
-```python
-!git clone https://github.com/Andrepf03/PROJETO2.git
-%cd PROJETO2
-!pip install -q umap-learn scikit-image datasets scikit-learn==1.9.1
-```
-Depois, cada notebook pode ser executado assim (exemplo):
-```python
-!jupyter nbconvert --to notebook --execute --inplace \
-  --ExecutePreprocessor.kernel_name=python3 --ExecutePreprocessor.timeout=-1 \
-  notebooks/09_classification.ipynb
-```
-A versão do scikit-learn é fixada porque o classificador guardado em `models/clf_raw.joblib` foi treinado com a 1.9.1. A GPU é opcional: só acelera o treino dos autoencoders.
+Abrir o notebook notebooks/colab.ipynb e fazer Runtime → Run all.
+
+O notebook:
+
+clona o repositório e instala as bibliotecas que faltam (o scikit-learn fica fixo na versão 1.9.1, a usada para treinar o classificador guardado em models/clf_raw.joblib);
+executa os notebooks 00 a 16 por ordem e diz se cada um correu bem;
+mostra as tabelas e figuras principais.
+
+Por defeito, os notebooks 03 e 06 (treino do classificador em píxeis e dos autoencoders) são saltados, porque os modelos já treinados estão em models/ e os resultados desses notebooks já estão em results/. Assim, o Colab é mais rápido e reproduz exatamente os números do relatório. Para treinar tudo de novo, basta mudar RUN_TRAINING = True na 3.ª célula (com GPU em Runtime → Change runtime type).
 
 ### Localmente
 ```bash
