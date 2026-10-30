@@ -88,7 +88,7 @@ Descarregado automaticamente pelo `torchvision` a partir da fonte oficial (<http
 ## Reprodutibilidade
 - Seed fixa (`SEED = 42`) para `random`, `numpy`, `torch` e todos os `random_state` do scikit-learn.
 - O split é gerado por uma função determinística (`get_splits`), por isso é sempre igual.
--Noutra máquina (por exemplo, no Colab) podem surgir diferenças mínimas, na 3.ª casa decimal, por causa dos arredondamentos de CPU/GPU. Exemplos: a accuracy do PCA-16 (0,787 vs 0,789) e o autoencoder a cores, que é treinado de novo no notebook 14b. Estas diferenças não alteram nenhuma conclusão.
+- Noutra máquina (por exemplo, no Colab) podem surgir diferenças mínimas, na 3.ª casa decimal, por causa dos arredondamentos de CPU/GPU. Exemplos: a accuracy do PCA-16 (0,787 vs 0,789) e o autoencoder a cores, que é treinado de novo no notebook 14b. Estas diferenças não alteram nenhuma conclusão.
 
 ## Principais resultados (conjunto de teste)
 
