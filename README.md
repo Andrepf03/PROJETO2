@@ -52,7 +52,7 @@ Os notebooks podem ser abertos a partir da pasta `notebooks/`. A primeira célul
 ## Ordem dos notebooks
 
 | Notebook | O que faz
-|---|---|---|
+|---|---|
 | `00_setup_check` | Verifica bibliotecas e GPU
 | `01_data_exploration` | Carrega o Fashion-MNIST, contagens e exemplos
 | `02_splits` | Normalização e split 50k/10k/10k reprodutível
