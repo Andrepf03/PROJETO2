@@ -51,26 +51,26 @@ Os notebooks podem ser abertos a partir da pasta `notebooks/`. A primeira célul
 
 ## Ordem dos notebooks
 
-| Notebook | O que faz | Tempo aprox. |
+| Notebook | O que faz
 |---|---|---|
-| `00_setup_check` | Verifica bibliotecas e GPU | segundos |
-| `01_data_exploration` | Carrega o Fashion-MNIST, contagens e exemplos | < 1 min |
-| `02_splits` | Normalização e split 50k/10k/10k reprodutível | segundos |
-| `03_baseline_raw_pixels` | Regressão logística nos 784 píxeis (**opcional**: o modelo já está em `models/`) | ~14 min (CPU) |
-| `04_pca` | Variância explicada e erro de reconstrução | < 1 min |
+| `00_setup_check` | Verifica bibliotecas e GPU
+| `01_data_exploration` | Carrega o Fashion-MNIST, contagens e exemplos
+| `02_splits` | Normalização e split 50k/10k/10k reprodutível
+| `03_baseline_raw_pixels` | Regressão logística nos 784 píxeis (**opcional**: o modelo já está em `models/`)
+| `04_pca` | Variância explicada e erro de reconstrução
 | `05_visualization_2d` | PCA vs t-SNE vs UMAP em 2D | ~2 min |
-| `06_autoencoder` | Treina 6 autoencoders, d = 2…128 (**opcional**: já estão em `models/`) | ~6 min (GPU) |
-| `07_representation_check` | Testa o `representation.py` e compara os espaços latentes 2D | < 1 min |
-| `08_reconstruction_panels` | Painéis de reconstrução e MSE no teste | < 1 min |
-| `09_classification` | Tabela de classificação: píxeis vs PCA vs AE | ~2 min |
-| `10_texture_hog` | Descritor HOG e classificação com HOG | ~3 min |
-| `11_retrieval_module` | Demonstração do `retrieval.py` | < 1 min |
-| `12_retrieval_evaluation` | precision@5/10 em todos os espaços e dimensões | ~1 min |
-| `13_retrieval_panels` | Painéis de retrieval e precision por classe | ~1 min |
-| `14a_color_dataset` | Cria o subconjunto a cores | ~1 min (+ download) |
-| `14b_color_retrieval` | Cor vs textura vs embedding no dataset a cores | ~1 min |
-| `15_failure_cases` | Casos de falha (sistemáticos) | < 1 min |
-| `16_main_conclusion` | Classificação vs retrieval: figura-resumo, saturação, Spearman | segundos |
+| `06_autoencoder` | Treina 6 autoencoders, d = 2…128 (**opcional**: já estão em `models/`)
+| `07_representation_check` | Testa o `representation.py` e compara os espaços latentes 2D
+| `08_reconstruction_panels` | Painéis de reconstrução e MSE no teste
+| `09_classification` | Tabela de classificação: píxeis vs PCA vs AE
+| `10_texture_hog` | Descritor HOG e classificação com HOG | ~3 min
+| `11_retrieval_module` | Demonstração do `retrieval.py` | < 1 min
+| `12_retrieval_evaluation` | precision@5/10 em todos os espaços e dimensões
+| `13_retrieval_panels` | Painéis de retrieval e precision por classe
+| `14a_color_dataset` | Cria o subconjunto a cores
+| `14b_color_retrieval` | Cor vs textura vs embedding no dataset a cores
+| `15_failure_cases` | Casos de falha (sistemáticos)
+| `16_main_conclusion` | Classificação vs retrieval: figura-resumo, saturação, Spearman
 
 ## Datasets
 
