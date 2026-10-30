@@ -1,7 +1,5 @@
-# ambiente virtual
 .venv/
-# datasets (são descarregados automaticamente pelo código)
 data/
-# ficheiros temporários do Python e do Jupyter
 __pycache__/
 .ipynb_checkpoints/
+ .vscode/
