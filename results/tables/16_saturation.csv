@@ -1,0 +1,3 @@
+family,best accuracy,saturation dim (classification),best p@10,saturation dim (retrieval)
+PCA,0.8414,64,0.80645,32
+AE,0.8576,128,0.82432,32

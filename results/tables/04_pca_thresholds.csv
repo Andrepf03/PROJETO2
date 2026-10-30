@@ -1,0 +1,5 @@
+variance_threshold,n_components
+0.8,24
+0.9,84
+0.95,187
+0.99,459

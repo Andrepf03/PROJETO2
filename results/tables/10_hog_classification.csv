@@ -1,0 +1,2 @@
+space,dim,val_acc,test_acc,train_time_s
+HOG,324,0.8566,0.8444,105.8055475000292

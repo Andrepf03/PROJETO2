@@ -1,0 +1,11 @@
+query class,top-1 neighbour class,count
+T-shirt/top,Shirt,158
+Shirt,T-shirt/top,145
+Coat,Pullover,135
+Pullover,Coat,111
+Shirt,Pullover,104
+Pullover,Shirt,104
+Coat,Shirt,88
+Shirt,Coat,87
+Sandal,Sneaker,43
+Sneaker,Ankle boot,43
